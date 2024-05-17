@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color: rgba(39, 38, 38, 0.726);
+    border-radius: 3%;
+    padding:3rem;
+    text-align: center;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo{
+    border-radius: 50%;
+    width:6rem;
+    height:6rem;
+}
+.name{
+   
+    font-size: 1.5rem;
+
+}
+.address{
+    color:rgb(195, 255, 0);
+    font-style:normal;
+    font-weight: 600;
+}
+.bio{
+    opacity: 0.6;
+}
+.socials  {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem;
+    background-color: rgb(61, 60, 60);
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.5rem;
+    font-style:normal ;
+    font-weight:500;
+}
+.attribution{
+    margin-top: 0.6rem;
+    
+}
+.attribution a{
+    color:rgb(151, 140, 161);
+}
